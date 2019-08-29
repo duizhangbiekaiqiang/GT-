@@ -1,12 +1,12 @@
 # GT_School_Plus
 GT网络学院学习资源不错，但是所里设定不允许拖拽进度，不能倍速播放，时长几小时的课程实在不友好，遂加强之。
 
-脚本功能：
+## 脚本功能：
   1. 恢复视频的进度条
   2. 增加倍速播放功能
 
-安装方法：
-1. 安装插件推荐使用Tampermonkey插件:<br>
+## 安装方法：
+### 1.安装插件推荐使用Tampermonkey插件:<br>
   Tampermonkey，俗称“油猴”，是一款在浏览器上运行和管理脚本的插件。所谓脚本就是一段代码，它们能够优化您的网页浏览体验。安装之后，有些脚本能为网站添加新的功能，有些能使网站的界面更加易用，有些则能隐藏网站上烦人的部分内容。<br>
 
 | 浏览器         | 安装地址                                                     | 说明             |
@@ -18,6 +18,6 @@ GT网络学院学习资源不错，但是所里设定不允许拖拽进度，不
 | Chrome浏览器   | [扩展商店地址](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo) | 可能需要科学上网 |
 | 火狐浏览器     | [扩展商店地址](https://addons.mozilla.org/zh-CN/firefox/addon/tampermonkey) |                  |
 | Microsoft Edge | [扩展商店地址](https://www.microsoft.com/store/p/tampermonkey/9nblggh5162s) |                  |
-<br>
-2. 安装脚本：  
-[下载路径1](https://greasyfork.org/zh-CN/scripts/389490-gt学院恢复进度条和倍速播放)
+
+### 2.安装脚本：<br>
+ [Greasy Fork](https://greasyfork.org/zh-CN/scripts/389490-gt学院恢复进度条和倍速播放) 
