@@ -2,7 +2,8 @@
 GT网络学院学习资源不错，但是所里设定不允许拖拽进度，不能倍速播放，时长几小时的课程实在不友好，遂加强之。
 
 脚本功能：
-  恢复视频的进度条，增加倍速播放功能。
+  1. 恢复视频的进度条
+  2. 增加倍速播放功能
 
 安装方法：
 1. 安装插件推荐使用Tampermonkey插件: [Chrome](https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo)
