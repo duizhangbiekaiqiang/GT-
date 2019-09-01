@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         GT学院恢复进度条和倍速播放
-// @version      0.2
+// @version      0.2.1
 // @description  帮助我们更好的学习！！
 // @author       gcc（guocc1993@gmail.com）
 // @include      *://training.gt-china.com.cn/teelms/study.shtml?*
@@ -38,16 +38,8 @@
 	function addButton(){
 		var btpos = document.getElementById('bottomBox');
 		var newtext = document.createElement('div');
-		newtext.innerHTML ="<input type=\"text\" id=\"Vspeed\" value=\"当前速度：1.0\">";
+		newtext.style.cssText += 'text-align:center';
+        newtext.innerHTML ="<input type=\"text\" id=\"Vspeed\" size =\"10\" readonly=\"readonly\" value=\"当前速度：1.0\"><input type=\"button\" id=\"bt1\" value=\"加0.1\"><input type=\"button\" id=\"bt2\" value=\"减0.1\"><input type=\"button\" id=\"bt3\" value=\"还 原\">";
 		document.body.insertBefore(newtext,btpos);
-		var newBt1 = document.createElement('div');
-		newBt1.innerHTML ="<input type=\"button\" id=\"bt1\" value=\"加0.1\">";
-		document.body.insertBefore(newBt1,btpos);
-		var newBt2 = document.createElement('div');
-		newBt2.innerHTML ="<input type=\"button\" id=\"bt2\" value=\"减0.1\">";
-		document.body.insertBefore(newBt2,btpos);
-		var newBt3 = document.createElement('div');
-		newBt3.innerHTML ="<input type=\"button\" id=\"bt3\" value=\"还 原\">";
-		document.body.insertBefore(newBt3,btpos);
-	}
+ 	}
 })();
